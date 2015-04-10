@@ -1,0 +1,25 @@
+{
+    "name": "efabrikov/filetransfer",
+    "type": "library",
+    "description": "File transfer factory",
+    "keywords": ["efabrikov","filetransfer"],
+    "homepage": "http://github.com/efabrikov/filetransfer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eugene Fabrikov",
+            "email": "eugene.fabrikov@gmail.com",
+            "homepage": "http://google.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {            
+            "efabrikov\\filetransfer": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
